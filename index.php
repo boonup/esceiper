@@ -23,9 +23,9 @@
     		</p>
     		
     		<div class='app'>
-    			<form method="post" action='#'>
-    				<textarea name="input"></textarea>
-    				<button type='submit'> Escape! </button>
+    			<form method="post" action='engine/engine.php' id='input-form'>
+    				<textarea name="input" class="input"></textarea>
+    				<button class="submit" type='submit'> Escape! </button>
     			</form>
     			<textarea class='result'></textarea>
     		</div>
@@ -34,9 +34,8 @@
     			<p>Hope you're enjoying this tool. You can contribute on <a href="#">Github</a></p>
     		</div>
     	</div>
-  
-    <script src="//localhost:35729/livereload.js"></script>    
+    	 
     <script src="js/vendor/vendor.js"></script>
-    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
