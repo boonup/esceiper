@@ -20,3 +20,5 @@ The upcoming month I hope to add a few things:
 - [ ] Some more .htaccess stuff
 - [ ] Init this gist: https://gist.github.com/arthurvr/11006683
 - [ ] Favicon stuff
+- [ ] Gitignore file
+- [ ] JSHint config file
