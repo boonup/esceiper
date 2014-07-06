@@ -8,7 +8,7 @@ module.exports = function(grunt) {
 		
 		  scripts: {
 		    files: ['js/*', 'js/vendor/*'],
-		    tasks: ['uglify', 'concat'],
+		    tasks: ['uglify', 'concat', 'jshint'],
 		    options: { livereload: true }
 		  }, 
 
@@ -42,15 +42,21 @@ module.exports = function(grunt) {
 			dist: {
 				options: {config: 'config.rb' }
 			}
-		}
+		},
+    
+    jshint: {
+      all: ['Gruntfile.js', 'js/*.js', '!js/*.min.js', '!js/vendor/*.js']
+    }
+
 
 	});
 
 	grunt.loadNpmTasks('grunt-contrib-concat');
 	grunt.loadNpmTasks('grunt-contrib-uglify');
+  grunt.loadNpmTasks('grunt-contrib-jshint');
 	grunt.loadNpmTasks('grunt-contrib-compass');
 	grunt.loadNpmTasks('grunt-contrib-watch');
 
-	grunt.registerTask('default', ['concat', 'uglify', 'compass'] );
+	grunt.registerTask('default', ['jshint', 'concat', 'uglify', 'compass'] );
 
-}
+};
