@@ -18,7 +18,7 @@ The upcoming month I hope to add a few things:
 - [ ] Gzipping 
 - [ ] HTML5 Shiv  
 - [ ] Some more .htaccess stuff
-- [ ] Init this gist: https://gist.github.com/arthurvr/11006683
+- [x] Init this gist: https://gist.github.com/arthurvr/11006683
 - [ ] Favicon stuff
 - [ ] Gitignore file
 - [ ] JSHint config file
