@@ -5,10 +5,6 @@
 
     Verschaeve Arthur -- Developer -- arthur_versch
 
-# THANKS
-
-    Bruwier Jef
-
 # TECHNOLOGY COLOPHON
 
     HTML5, CSS3
