@@ -1,3 +1,35 @@
 @import "normalize";
+@import "compass/utilities/links/unstyled-link";
 @import "compass/css3";
 @import "breakpoints";
+
+$main-color: #f39c12;
+
+body {
+	background: lighten( $main-color, 10% );	
+}
+
+.container {
+	width: 80%;
+	background: $main-color; 
+	position: fixed; 
+	top: 0; 
+	bottom: 0;
+	left: 10%;
+	right: 10%;
+	text-align: center;
+}
+
+.intro { display: block; width: 80%; margin: 0 auto; }
+
+.app {
+	form { width: 100%; }
+	textarea { width: 70%; margin: 10px auto; height: 200px; }
+	button { display: block; margin: 0px auto; }
+}
+
+a { 
+	@include unstyled-link;
+	font-weight: bold;
+	&:hover { text-decoration: underline; cursor: pointer }
+}

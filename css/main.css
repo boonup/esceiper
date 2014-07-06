@@ -433,3 +433,60 @@ td,
 th {
   padding: 0;
 }
+
+/* line 8, ../scss/main.scss */
+body {
+  background: #f5b043;
+}
+
+/* line 12, ../scss/main.scss */
+.container {
+  width: 80%;
+  background: #f39c12;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+}
+
+/* line 23, ../scss/main.scss */
+.intro {
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* line 26, ../scss/main.scss */
+.app form {
+  width: 100%;
+}
+/* line 27, ../scss/main.scss */
+.app textarea {
+  width: 70%;
+  margin: 10px auto;
+  height: 200px;
+}
+/* line 28, ../scss/main.scss */
+.app button {
+  display: block;
+  margin: 0px auto;
+}
+
+/* line 31, ../scss/main.scss */
+a {
+  color: inherit;
+  text-decoration: inherit;
+  cursor: inherit;
+  font-weight: bold;
+}
+/* line 6, ../../../../../../Library/Ruby/Gems/2.0.0/gems/compass-0.12.6/frameworks/compass/stylesheets/compass/typography/links/_unstyled-link.scss */
+a:active, a:focus {
+  outline: none;
+}
+/* line 34, ../scss/main.scss */
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
