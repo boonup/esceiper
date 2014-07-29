@@ -1,9 +1,9 @@
 (function( window, document, undefined ) {
 
   'use strict';
-
-	var form = document.getElementById('input-form');
-	var input_area = document.getElementsByClassName('input')[0];
+  
+  var form = document.getElementById('input-form');
+  var input_area = document.getElementsByClassName('input')[0];
 	var output_area = document.getElementsByClassName('result')[0];
 	var submit_button = document.getElementsByClassName('submit')[0];
 
